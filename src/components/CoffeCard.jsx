@@ -40,7 +40,7 @@ const CoffeCard = ({coffee, coffees, setCoffees}) => {
             <h4>Taste: {taste}</h4>
             <h4>Price: {price}</h4>
             <div className="flex justify-between text-white font-bold">
-                <Link to={`/update/${_id}`} className="inline-block bg-green-500 py-2 rounded w-full text-center mr-1"><button>Edit</button></Link>
+                <Link to={`/coffes/${_id}`} className="inline-block bg-green-500 py-2 rounded w-full text-center mr-1"><button>Edit</button></Link>
                 <button onClick={() => handleDelete(_id)} className="bg-red-500 py-2 rounded w-full ml-1">Delete</button>
             </div>
         </div>
